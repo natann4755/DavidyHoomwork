@@ -15,12 +15,25 @@
             android:layout_height="match_parent"
             android:textSize="40sp"
             android:layout_weight="1"></TextView>
-
-        <ImageView
-            android:id="@+id/Imegg"
+        <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></ImageView>
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/Imegg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></ImageView>
+            <ProgressBar
+                android:id="@+id/ProgressBar2222"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_centerInParent="true"
+                android:indeterminateTint="@color/colorPrimary"
+                android:visibility="gone">
+            </ProgressBar>
+        </RelativeLayout>
+
     </LinearLayout>
 
 </LinearLayout>

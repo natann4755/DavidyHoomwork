@@ -2,9 +2,9 @@ package com.example.xml_exsersis;
 
 public class person {
    private String name;
-   private int imeg;
+   private String imeg;
 
-    public person(String name, int imeg) {
+    public person(String name, String imeg) {
         this.name = name;
         this.imeg = imeg;
     }
@@ -17,11 +17,11 @@ public class person {
         this.name = name;
     }
 
-    public int getImeg() {
+    public String getImeg() {
         return imeg;
     }
 
-    public void setImeg(int imeg) {
+    public void setImeg(String imeg) {
         this.imeg = imeg;
     }
 }
